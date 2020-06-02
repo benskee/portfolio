@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Ben Skee's Web Portfolio</title>
+	
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 60%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 40%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+p.t1 {
+	max-width: 400px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><a name="top">Ben Skee</h1>
+  <p><em>Refine Your Reality.<em></p>
+</div>
+
+<div class="topnav">
+  <a href="https://insights.dice.com/2019/12/16/python-top-programming-language-2019/">Python</a>
+  <a>Web Design</a>
+  <a href="https://zelda.gamepedia.com/Link" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Why I Chose Coding</h2>
+      <div><img src="family.jpg"></div>
+	  <h5>Me with my wife Lauren and our son Owen.</h5>
+      <p class="t1">I decided to take the plunge and persue a career in computer science so that 
+		I could spend more time with my family I have been a flight attendant for the 
+		last 10 years and that has given me a lot of wonderful opportunities. However,
+		now that I am a father my priorities have made me want to spend more time at home.</p>
+    </div>
+    <div class="card">
+      <h2>Full-stack Person</h2>    
+      <p class="t1">Very often personal and technical skills are seen to be mutually exclusive. 
+		However, I consider myself to be a "full-stack person" because in addition to 
+		having programming skills, I also have a wide range of experience with people.</p>
+	  <p>Some of my experience includes:</p>
+	  <ul>
+		<li>17 years of customer service</li>
+		<li>Bachelor's degree in Psychology (University of Florida)</li>
+		<li>Extensive travel spanning 5 continents</li>
+	  </ul>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div><img src="profile.jpg"></div>
+      <p>Hello, I am Ben Skee. I am a skilled computer programer with many 
+		minutes of experience.</p>
+    </div>
+    <div class="card">
+      <h3>Some of my Hobbies</h3>
+      <div><img src="rock_climbing.jpg"></div>
+      <div><img src="snow.jpg"></div>
+      <div><img src="deck.jpg"></div>
+    </div>
+    <div class="card">
+      <h3>Contact Me</h3>
+	  <p>If you would like to reach me please don't hesitate to say hi!</p>
+      <p><a href="mailto:benskee33@gmail.com?subject=Hi,%Ben!">
+		Email me</a></p>
+	  <p><a href="https://linkedin.com/in/ben-skee-bb89ba1a8">LinkedIn</a></p>
+    </div>
+  </div>
+</div>
+
+<p><a href="#top">Return to Top</a></p>
+		
+
+</body>
+</html>
